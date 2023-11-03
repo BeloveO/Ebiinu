@@ -1,2 +1,2 @@
 # Ebiinu
-# Food Ordering app
+## Foodstuff Ordering app
