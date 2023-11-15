@@ -34,6 +34,10 @@ def ebi(request):
     context = {'products': products, 'cartItems': cartItems}
     return render(request, 'ebi/ebi.html', context)
 
+def about(request):
+     data = cartData(request)
+     return render(request, 'ebi/about.html')
+
 def updateItem(request):
 	data = json.loads(request.body)
 	productId = data['productId']
