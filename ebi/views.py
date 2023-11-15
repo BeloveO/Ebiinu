@@ -36,7 +36,7 @@ def ebi(request):
 
 def about(request):
      data = cartData(request)
-     return render(request, 'templates/ebi/about.html')
+     return render(request, 'ebi/about.html')
 
 def updateItem(request):
 	data = json.loads(request.body)
