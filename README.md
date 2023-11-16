@@ -9,7 +9,7 @@
 #### Frontend: HTML, CSS, Javascript
 #### Framework used: Django
 #### Storage: SQLite
-![Sitebanner](https://github.com/BeloveO/Ebiinu/assets/104320050/ff325c34-5678-4a4f-b507-e704951093a4)
+[Sitebanner](https://github.com/BeloveO/Ebiinu/assets/104320050/ff325c34-5678-4a4f-b507-e704951093a4)
 #### LICENSE: MIT License
 #### Copyright (c) 2023 BeloveO
 #### Author: Belove Olusola <beloveolusola@gmail.com>
