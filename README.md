@@ -8,9 +8,6 @@
 - Checkout functionality: this takes the user to the checkout page to input their details to know where the products are to be shipped.
 #### Most difficult technical challenge:
 - This would be the deployment aspect. I had issues first with the requirements.txt file which couldn’t be installed no matter what i tried which led to me carefully formatting parts of the file. I had issues with the static files while running collectstatic which led to having to set up new static root for deployment. i had issues with the media files which led to me having to set up new media root. I had to do all this in a different virtual environment on the deployment site than the the one i had set previously. The only issue left now is to sort the About page which should be resolved soon.
-### Deployed site link: [Ebiinu](http://belove.pythonanywhere.com)
-### Final blog post: [Ebiinu, the foodstuff ordering website](https://medium.com/@beloveolusola/ebiinu-the-foodstuff-ordering-website-4d97157ea4d1)
-### Author's LinkedIn profile: [Belove Olusola]( www.linkedin.com/in/belove-olusola)
 #### Usage: The user has the option to log in or buy as a guest user. The user selects the goods wanted; then proceeds to the the cart to remove or add to the quantity of goods needed. The user then proceeds to checkout where a new logged in user and the guest user has to input their names and emails to the input fields provided. A known user skips this point and they all proceed to input address, city, state and country. Once this is done, the user proceeds to payment with a third party service
 #### Backend: Python
 #### Frontend: HTML, CSS, Javascript
@@ -21,6 +18,11 @@
 ![Cart](https://github.com/BeloveO/Ebiinu/assets/104320050/7eb7250c-f80a-4a84-beda-cfcee9318f6c)
 
 ![checkout](https://github.com/BeloveO/Ebiinu/assets/104320050/d68b3512-8978-404d-804a-81014f03f3f7)
+
+
+#### Deployed site link: [Ebiinu](http://belove.pythonanywhere.com)
+#### Final blog post: [Ebiinu, the foodstuff ordering website](https://medium.com/@beloveolusola/ebiinu-the-foodstuff-ordering-website-4d97157ea4d1)
+#### Author's LinkedIn profile: [Belove Olusola]( www.linkedin.com/in/belove-olusola)
 #### LICENSE: Distributed under the MIT License. See LICENSE for more information.
 #### Copyright (c) 2023 BeloveO
 #### Author: Belove Olusola <beloveolusola@gmail.com>
