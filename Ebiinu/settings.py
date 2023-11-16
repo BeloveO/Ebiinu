@@ -123,7 +123,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 
-STATIC_ROOT = "/Users/beloveolusola/Desktop/Ebiinu/static/"
+STATIC_ROOT = "/home/Belove/Ebiinu/static/"
 
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
