@@ -10,6 +10,8 @@
 #### Framework used: Django
 #### Storage: SQLite
 ![Sitebanner](https://github.com/BeloveO/Ebiinu/assets/104320050/ff325c34-5678-4a4f-b507-e704951093a4)
+![Checkout](https://github.com/BeloveO/Ebiinu/assets/104320050/62abea15-1f2c-4fe7-bdd0-0acf7c516e63)
+![Cart](https://github.com/BeloveO/Ebiinu/assets/104320050/7eb7250c-f80a-4a84-beda-cfcee9318f6c)
 #### LICENSE: MIT License
 #### Copyright (c) 2023 BeloveO
 #### Author: Belove Olusola <beloveolusola@gmail.com>
