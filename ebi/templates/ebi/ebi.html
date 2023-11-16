@@ -2,10 +2,12 @@
 {% load static %}
 {% block content %}
     <div>
-        <h6 style="font-family: cursive; font-size: 20px;">
+        <img src="{% static 'images/sitelg.jpg' %}" width="1000" height="500" alt="Site logo">
+        <h6 style="font-family: cursive; font-size: 40px;">
             Shop for your foodstuff from the comfort of your home
         </h6>
     </div>
+    <br>
     <div class="row">
         {% for product in products %}
         <div class="col-lg-4">
@@ -16,7 +18,7 @@
                 
                 <button data-product={{product.id}} data-action="add" class="btn btn-outline-secondary add-btn update-cart">Add to Cart</button>
                 <a class="btn btn-outline-success" href="#">View</a>
-                <h4 style="display: block; float: right"><strong>₦{{product.price|floatformat:2}}</strong></h4>
+                <h4 style="display: block; float: right"><strong>₦{{product.price}}</strong></h4>
             </div>
         </div>
         {% endfor %}
